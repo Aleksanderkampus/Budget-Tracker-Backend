@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BLL.Base\BLL.Base.csproj" />
+      <ProjectReference Include="..\BLL.Contracts.App\BLL.Contracts.App.csproj" />
+      <ProjectReference Include="..\BLL.DTO\BLL.DTO.csproj" />
+      <ProjectReference Include="..\DAL.Contracts.App\DAL.Contracts.App.csproj" />
+      <ProjectReference Include="..\DAL.EF.APP\DAL.EF.APP.csproj" />
+      <ProjectReference Include="..\Public.DTO\Public.DTO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>

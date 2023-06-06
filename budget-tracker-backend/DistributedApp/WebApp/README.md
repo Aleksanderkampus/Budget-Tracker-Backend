@@ -1,0 +1,9 @@
+dotnet aspnet-codegenerator controller -m Account -name AccountsController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m AccountBudget -name AccountBudgetsController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m Budget -name BudgetsController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m CategoryBudget -name CategoryBudgetsController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m CategoryTransaction -name CategoryTransactionsController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m Currency -name CurrenciesController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m FinancialCategory -name FinancialCategoriesController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m Subscription -name SubscriptionsController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -m Transaction -name TransactionsController -dc AppDbContext -udl -outDir Controllers --referenceScriptLibraries
