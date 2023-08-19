@@ -15,7 +15,7 @@ Welcome to the Budget Tracker Project! This application aims to assist users in 
 
 The Budget Tracker Project is built using the following technologies:
 
-- .NET:
+- C#:
 - Next.js:
 - Tailwind CSS:
 - Docker:
